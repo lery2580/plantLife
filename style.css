@@ -55,3 +55,18 @@ main{
 main.open {
     transform: translate(240px,0);
 }
+
+a.toggle-nav{
+    left: 30px;
+    top: 30px;
+    position: fixed;
+    text-decoration: none;
+    color: #2a2a2a;
+
+}
+
+a.toggle-nav img{
+    margin-right: 4px;
+    width: 20px;
+    vertical-align: -15%;
+}
