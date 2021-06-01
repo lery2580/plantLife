@@ -49,7 +49,9 @@ main{
     background-color: #fff;
     min-height: 100vh;
     transition: transform 0.5s;
-
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 main.open {
@@ -69,4 +71,53 @@ a.toggle-nav img{
     margin-right: 4px;
     width: 20px;
     vertical-align: -15%;
+}
+
+section {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section div{
+    width: 350px;
+}
+
+section div.content{
+    margin: 0 0 0 60px;
+}
+
+h1 {
+    font-family: "Young Serif";
+    font-size: 48px;
+    font-weight: 700;
+    margin: 12px 0 12px 0;
+}
+
+a.button{
+    display: inline-block;
+    background-color: #00b98d;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+div.slides{
+    position: relative;
+    width: 375px;
+    height: 450px;
+    cursor: pointer;
+
+}
+
+div.slides img{
+    position: absolute;
+    top: 0;
+    left: 0;'
+    z-index: 0;
+}
+
+div.slides img:first-child{
+    z-index: 1;
 }
